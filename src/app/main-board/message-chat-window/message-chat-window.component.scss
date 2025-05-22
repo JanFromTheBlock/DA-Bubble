@@ -131,7 +131,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     &:hover {
       cursor: pointer;
       background: #eceefe;
@@ -600,7 +600,7 @@ app-privat-message-field{
     }
   }
 
-  
+
 
   .contact-profile {
     margin-left: 16px;
@@ -639,5 +639,11 @@ app-privat-message-field{
   .chat-container {
     height: unset;
     min-height: calc(100vh - 440px);
+  }
+}
+
+@media (min-width: 1150px) and (max-height: 800px) {
+  .chat-container-inside{
+    height: calc(100vh - 225px);
   }
 }
